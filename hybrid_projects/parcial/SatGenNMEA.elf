@@ -1,0 +1,969 @@
+Application...
+  Start Date      : 03/20/2018 20:37:43
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/20/2018 20:37:58
+  Address: 004C03AD
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 102.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Stop
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 40,6 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004C03AD|SatGenNMEA.exe|Unit1.pas     |TForm1|StopReplayButtonClick                   |3513|
+|776FFA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|776FF240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|776E80E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776E80D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776FD502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|76203D12|GDI32.dll     |              |      |SetViewportOrgEx                        |    |
+|7452D020|user32.dll    |              |      |PtInRect                                |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7452B900|user32.dll    |              |      |SendMessageW                            |    |
+|7772F05A|ntdll.dll     |              |      |ZwAssociateWaitCompletionPacket         |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|776FCB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|751629DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|745309D0|user32.dll    |              |      |GetCapture                              |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|745338BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|745338B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74028652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/20/2018 20:37:43
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/20/2018 20:38:01
+  Address: 004C03AD
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 102.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Stop
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 40,6 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004C03AD|SatGenNMEA.exe|Unit1.pas     |TForm1|StopReplayButtonClick                   |3513|
+|776FFA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|776FF240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|776E80E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776E80D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776FD502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452D020|user32.dll    |              |      |PtInRect                                |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7452B900|user32.dll    |              |      |SendMessageW                            |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|776FCB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|751629DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|745309D0|user32.dll    |              |      |GetCapture                              |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|745338BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|745338B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74028652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/20/2018 20:37:43
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/20/2018 20:38:03
+  Address: 004C03AD
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 102.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Stop
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 40,6 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+----------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method             |Line|
+----------------------------------------------------------------------------------
+|004C03AD|SatGenNMEA.exe|Unit1.pas     |TForm1|StopReplayButtonClick        |3513|
+|776FFA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId|    |
+|776FF240|ntdll.dll     |              |      |RtlFreeHeap                  |    |
+|776E80E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor  |    |
+|776E80D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor  |    |
+|776FD502|ntdll.dll     |              |      |RtlFreeAnsiString            |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA              |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA              |    |
+|7452D020|user32.dll    |              |      |PtInRect                     |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection      |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn             |    |
+|7452B900|user32.dll    |              |      |SendMessageW                 |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA              |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA              |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA              |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA              |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection      |    |
+|7770CC07|ntdll.dll     |              |      |RtlRunOnceExecuteOnce        |    |
+|7770CBD0|ntdll.dll     |              |      |RtlRunOnceExecuteOnce        |    |
+|7770CB1A|ntdll.dll     |              |      |RtlRandom                    |    |
+|751629DA|win32u.dll    |              |      |NtUserGetThreadState         |    |
+|745309D0|user32.dll    |              |      |GetCapture                   |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn             |    |
+|745338BB|user32.dll    |              |      |DispatchMessageA             |    |
+|745338B0|user32.dll    |              |      |DispatchMessageA             |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                             |22  |
+|74028652|KERNEL32.DLL  |              |      |BaseThreadInitThunk          |    |
+----------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/20/2018 20:37:43
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/20/2018 20:38:05
+  Address: 004C03AD
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 102.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Stop
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 40,6 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004C03AD|SatGenNMEA.exe|Unit1.pas     |TForm1|StopReplayButtonClick                   |3513|
+|776FFA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|776FF240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|776E80E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776E80D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776FD502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452D020|user32.dll    |              |      |PtInRect                                |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7452B900|user32.dll    |              |      |SendMessageW                            |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|776FCB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|751629DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|745309D0|user32.dll    |              |      |GetCapture                              |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|745338BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|745338B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74028652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/20/2018 20:37:43
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/20/2018 20:38:07
+  Address: 004C03AD
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 102.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Stop
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 40,6 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004C03AD|SatGenNMEA.exe|Unit1.pas     |TForm1|StopReplayButtonClick                   |3513|
+|776FFA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|776FF240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|776E80E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776E80D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|776FD502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452D020|user32.dll    |              |      |PtInRect                                |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7452B900|user32.dll    |              |      |SendMessageW                            |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7452F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7770A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|776FCB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|751629DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|745309D0|user32.dll    |              |      |GetCapture                              |    |
+|7772E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|745338BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|745338B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74028652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/27/2018 21:56:52
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/27/2018 21:57:04
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 39,11 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|7784F05A|ntdll.dll     |              |      |ZwAssociateWaitCompletionPacket         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/27/2018 21:56:52
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/27/2018 21:57:15
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 39,1 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/27/2018 21:56:52
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/27/2018 21:57:31
+  Address: 004B3116
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 32.
+
+Active Controls...
+  Form Class   : TProgressForm
+  Form Text    : Calculating corner speeds
+  Control Class: TProgressForm
+  Control Text : Calculating corner speeds
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110.83 Gb
+  Free Disk   : 39.1 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004B3116|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |874 |
+|004B0F10|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |336 |
+|004C0A14|SatGenNMEA.exe|Unit1.pas     |TForm1|BitBtn7Click                            |3653|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BCB51|user32.dll    |              |      |NotifyWinEvent                          |    |
+|772D2CAA|win32u.dll    |              |      |NtUserNotifyWinEvent                    |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/28/2018 11:58:56
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/28/2018 11:59:05
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 38,35 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/28/2018 11:58:56
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/28/2018 11:59:10
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 38,35 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/28/2018 11:58:56
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/28/2018 11:59:23
+  Address: 004B3116
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 32.
+
+Active Controls...
+  Form Class   : TProgressForm
+  Form Text    : Calculating corner speeds
+  Control Class: TProgressForm
+  Control Text : Calculating corner speeds
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110.83 Gb
+  Free Disk   : 38.35 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004B3116|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |874 |
+|004B0F10|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |336 |
+|004C0A14|SatGenNMEA.exe|Unit1.pas     |TForm1|BitBtn7Click                            |3653|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BCB51|user32.dll    |              |      |NotifyWinEvent                          |    |
+|772D2CAA|win32u.dll    |              |      |NtUserNotifyWinEvent                    |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/28/2018 14:57:23
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/28/2018 14:57:30
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 38,31 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/28/2018 14:57:23
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 03/28/2018 14:57:46
+  Address: 004B3116
+  Module : SatGenNMEA.exe
+  Type   : EInOutError
+  Message: I/O error 32.
+
+Active Controls...
+  Form Class   : TProgressForm
+  Form Text    : Calculating corner speeds
+  Control Class: TProgressForm
+  Control Text : Calculating corner speeds
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110.83 Gb
+  Free Disk   : 38.32 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004B3116|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |874 |
+|004B0F10|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadKML                                 |336 |
+|004C0A14|SatGenNMEA.exe|Unit1.pas     |TForm1|BitBtn7Click                            |3653|
+|7781FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7781F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|778080E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|778080D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7781D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BCB51|user32.dll    |              |      |NotifyWinEvent                          |    |
+|772D2CAA|win32u.dll    |              |      |NtUserNotifyWinEvent                    |    |
+|773BD020|user32.dll    |              |      |PtInRect                                |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773BB900|user32.dll    |              |      |SendMessageW                            |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF386|user32.dll    |              |      |CallWindowProcA                         |    |
+|773BF370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7782A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7781CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|772D29DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|773C09D0|user32.dll    |              |      |GetCapture                              |    |
+|7784E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|773C38BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|773C38B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|76B48652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 04/03/2018 19:18:46
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 04/03/2018 19:18:55
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 38,53 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7723FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7723F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|772280E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|772280D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7723D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708D020|user32.dll    |              |      |PtInRect                                |    |
+|7724A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7726E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7708B900|user32.dll    |              |      |SendMessageW                            |    |
+|7708F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7724A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7723CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|741529DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|770909D0|user32.dll    |              |      |GetCapture                              |    |
+|7726E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|770938BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|770938B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74E88652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 04/04/2018 06:47:42
+  Name/Description: SatGenNMEA.exe
+  Version Number  : 
+
+Exception...
+  Date   : 04/04/2018 06:49:36
+  Address: 00409211
+  Module : SatGenNMEA.exe
+  Type   : EConvertError
+  Message: '090001.00' is not a valid floating point value.
+
+Active Controls...
+  Form Class   : TForm1
+  Form Text    : SatGen Trajectory generation V4.8i
+  Control Class: TButton
+  Control Text : Pick file for replay
+
+Computer...
+  Name        : DESKTOP-4JIBOHB
+  Total Memory: 2048 Mb
+  Free Memory : 2048 Mb
+  Total Disk  : 110,83 Gb
+  Free Disk   : 38,41 Gb
+
+Operating System...
+  Type    : 
+  Build # : 9200
+  Language: Español (Colombia)
+
+---------------------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class |Procedure/Method                        |Line|
+---------------------------------------------------------------------------------------------
+|004BFAC9|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3361|
+|004BF8F8|SatGenNMEA.exe|Unit1.pas     |TForm1|scanfile                                |3327|
+|004BF89F|SatGenNMEA.exe|Unit1.pas     |TForm1|LoadReplayFileButtonClick               |3316|
+|7723FA60|ntdll.dll     |              |      |RtlGetCurrentServiceSessionId           |    |
+|7723F240|ntdll.dll     |              |      |RtlFreeHeap                             |    |
+|772280E3|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|772280D0|ntdll.dll     |              |      |RtlDeleteBoundaryDescriptor             |    |
+|7723D502|ntdll.dll     |              |      |RtlFreeAnsiString                       |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708D020|user32.dll    |              |      |PtInRect                                |    |
+|7724A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7726E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|7708B900|user32.dll    |              |      |SendMessageW                            |    |
+|7708F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F386|user32.dll    |              |      |CallWindowProcA                         |    |
+|7708F370|user32.dll    |              |      |CallWindowProcA                         |    |
+|7724A190|ntdll.dll     |              |      |RtlLeaveCriticalSection                 |    |
+|7723CB17|ntdll.dll     |              |      |RtlDeactivateActivationContextUnsafeFast|    |
+|741529DA|win32u.dll    |              |      |NtUserGetThreadState                    |    |
+|770909D0|user32.dll    |              |      |GetCapture                              |    |
+|7726E7BA|ntdll.dll     |              |      |NtCallbackReturn                        |    |
+|770938BB|user32.dll    |              |      |DispatchMessageA                        |    |
+|770938B0|user32.dll    |              |      |DispatchMessageA                        |    |
+|004C38BB|SatGenNMEA.exe|SatGenNMEA.dpr|      |                                        |22  |
+|74E88652|KERNEL32.DLL  |              |      |BaseThreadInitThunk                     |    |
+---------------------------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Configuration>
+	<Color>
+		<Number_of_particles>78</Number_of_particles>
+		<Particle_resolution>36</Particle_resolution>
+		<Live_audio>0</Live_audio>
+		<Recorded_track>1</Recorded_track>
+		<Background_color>255, 210, 175, 255</Background_color>
+		<Line_color>128, 231, 120, 255</Line_color>
+		<Particle_color>255, 55, 146, 255</Particle_color>
+	</Color>
+</Configuration>
