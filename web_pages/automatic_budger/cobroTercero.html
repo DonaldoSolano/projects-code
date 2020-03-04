@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<title>AlcuboCotizaciones</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+	</style>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/css/bootstrap-select.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/item-quantity-dropdown.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body id>
+	<nav id="navigation" class="navbar navbar-expand-lg">
+	  <a class="navbar-brand" href="https://alcubo.com.co"><img src="./img/logo-blanco.png"></a>
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="https://alcubo.com.co">Inicio</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="https://alcubo.com.co/marketing-de-experiencias/">Experiencias</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="https://alcubo.com.co/produccion-de-espacios-y-eventos/">Comunidad Alcubo</a>
+	      </li>
+	      <li class="nav-item">
+	        <div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    				Cotiza
+  				</button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="index.html">Activaciones</a>
+				    <a class="dropdown-item" href="">Cobro a terceros</a>
+				  </div>
+			</div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="https://alcubo.com.co/activaciones-de-marca/">Contáctanos</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="sectioN">
+		<div class="firstColumn">
+			<form class="firstGrid">
+				<div class="form-group">
+					<div class="col-md-12">
+						<input type="text" placeholder="No. de cotización" data-msg-required="Por favor indica un número de cotización" maxlength="100" class="form-control" id="numeroCot" required>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-md-12">
+						<input type="text" placeholder="Fecha de la cotización" data-msg-required="Por favor indica una fecha de cotización" maxlength="100" class="form-control" id="fechaCot" required>
+					</div>
+				</div>
+			</form>
+				
+			<div id="submitForm">
+				<h4>Datos del cliente</h4>
+				<form id="formulario" class="firstGrid">
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Empresa" data-msg-required="Por favor indica tu negocio" maxlength="100" class="form-control" id="negocio" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Contacto" data-msg-required="Por favor indica tu contacto" maxlength="100" class="form-control" id="contacto" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Teléfono" data-msg-required="Por favor indica tu teléfono" maxlength="100" class="form-control" id="phone">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Cargo" data-msg-required="Por favor indica tu cargo" maxlength="100" class="form-control" id="cargo" required>
+						</div>
+					</div>
+
+					<div class="form-group overlap">
+		    			<select id="city" class="form-control col-md-12">
+		    				<option value="">Selecciona una ciudad </option>
+			     			<option value="Barranquilla"> Barranquilla</option>
+			     			<option value="Medellín"> Medellín</option>
+			     			<option value="Bucaramanga"> Bucaramanga</option>
+			     			<option value="Bogotá"> Bogotá</option>
+			     			<option value="Cali"> Cali</option>
+		    			</select>
+	  				</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="email" placeholder="Correo" data-msg-required="Por favor indica un correo de contacto" data-msg-email="Email inválido" maxlength="100" class="form-control" id="email" required>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<hr>
+
+			<div id="submitForm">
+				<h4>Datos del evento o del servicio</h4>
+				<form id="formulario" class="thirdGrid">
+							
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="fecha - dd/mm/aa" data-msg-required="Por favor indica una fecha" maxlength="100" class="form-control" id="fecha" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Hora Inicio" data-msg-required="Por favor indica un horario" maxlength="100" class="form-control" id="horaInicio" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Lugar" data-msg-required="Por favor indica un lugar" maxlength="100" class="form-control" id="lugar" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Hora Fin" data-msg-required="Por favor indica un horario" maxlength="100" class="form-control" id="horaFin" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Dirección" data-msg-required="Por favor indica una dirección" maxlength="100" class="form-control" id="direccion">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Aforo" data-msg-required="Por favor indica un aforo" maxlength="100" class="form-control" id="aforo">
+						</div>
+					</div>
+
+					<div class="form-group overlap">
+		    			<select id="cityEvento" class="form-control col-md-12">
+		    				<option value="">Selecciona una ciudad </option>
+			     			<option value="Barranquilla"> Barranquilla</option>
+			     			<option value="Medellín"> Medellín</option>
+			     			<option value="Bucaramanga"> Bucaramanga</option>
+			     			<option value="Bogotá"> Bogotá</option>
+			     			<option value="Cali"> Cali</option>
+		    			</select>
+	  				</div>
+
+	  				<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" placeholder="Nombre o descripción" maxlength="100" class="form-control" id="descripcion">
+						</div>
+					</div>
+				</form>
+			</div>	
+		</div>
+	</div>
+
+	<div class="flexColumns">
+		<div class="col-md-6">
+			<input type="number" placeholder="Cantidad" data-msg-required="Por favor indica una cantidad" maxlength="100" class="form-control" id="quanti" required>
+		</div>
+
+		<div class="col-md-6">
+			Total: <p id="totalTercer"></p>
+		</div>
+	</div>
+
+	<div class="buttonFlex">
+		<button id="cobroBtn" class="btn">
+			Cobro
+		</button>
+	</div>
+
+	<div  id="pdfFillTercero" class="pdfTercero">
+		<div class="pdfFillSection headerPositioner stylizedBackground">
+			<div class="col-sm-3">
+				<ul class="noListBullet">
+					<li class="pdfFillSection ">
+						<div class="col-sm-3 stylizedBorder reactiveFont">
+							<h6 class="reactiveFont">Cotización No:</h6> 	
+						</div>
+						<div class="col-sm-3 stylizedBorder reactiveFont">
+							<p class="reactiveFont" id="cotizacionNo"></p>
+						</div>
+					</li>
+
+					<li>
+						<h6 class="reactiveFont">Versión 2.0</h6>
+					</li>
+
+					<li class="pdfFillSection">
+						<div class="col-sm-3 stylizedBorder reactiveFont">
+							<h6 class="reactiveFont">Fecha:</h6> 	
+						</div>
+						<div class="col-sm-3 stylizedBorder reactiveFont">
+							<p class="reactiveFont" id="fechaNo"></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-sm-3 centeredItem">
+				<ul class="noListBullet">
+					<li>
+					<img class="stylizedLogo" src="https://i.imgur.com/9U06p3C.png">
+					</li>
+
+					<li>
+						<p class="reactiveFont">NIT: 900.731.276-7</p>	
+					</li>
+				</ul>
+			</div>			
+		</div>
+
+		<div class="pdfBorder">
+			<div class="pdfFillSection stylizedBackground solidBorderBottom">
+				<h6 class="reactiveFont">DATOS DEL CLIENTE</h6>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">EMPRESA</h6> </div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="EmpresaPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CONTACTO</h6> </div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="ContactoPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CELULAR</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="CelularPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CARGO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="CargoPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CORREO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="CorreoPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CIUDAD</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p  class="reactiveFont" id="CiudadPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection stylizedBackground solidBorderBottom solidBorderTop">
+				<h6 class="reactiveFont">DATOS DEL EVENTO O DEL SERVICIO</h6>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">FECHA</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="FechaEventoPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">HORA INICIO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="HoraInicioPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">LUGAR</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="LugarEventoPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">HORA FIN</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="HoraFinPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">AFORO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="AforoEventoPDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CIUDAD</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p  class="reactiveFont" id="CiudadEventoPDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">DESCRIPCION</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="DescripcionEventoPDF"></p></div>
+			</div>
+		</div>
+
+		<div class="pdfFillSection pdfSectionSeparator pdfBorder">
+			<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CANTIDAD</h6></div>
+			<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="cantidadTercero"></p></div>
+			<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">TOTAL</h6></div>
+			<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="totalTercero"></p></div>	
+		</div>	
+
+		<div class="pdfSectionSeparator pdfBorder">
+			<div class="pdfFillSection stylizedBackground solidBorderBottom">
+				<h6 class="reactiveFont">RESPONSABLE DE LA COTIZACION</h6>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">NOMBRE</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="NombreResponsablePDF"></p></div>
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">TELEFONO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="TelefonoResponsablePDF"></p></div>
+			</div>
+
+			<div class="pdfFillSection">
+				<div class="col-sm-3 stylizedBackground"><h6 class="reactiveFont">CARGO</h6></div>
+				<div class="col-sm-3 stylizedBorder"><p class="reactiveFont" id="CargoResponsablePDF"></p></div>
+			</div>
+		</div>
+
+		<div class="pdfSectionSeparator pdfBorder">
+			<div class="pdfFillSection stylizedBackground solidBorderBottom">
+				<h6 class="reactiveFont">OBSERVACIONES</h6>
+			</div>
+
+			<div class="pdfFillSection stylizedBorder reactiveFont">
+				*Alcubo producciones se reserva el derecho de iniciar cualquier proyecto hasta tener la aprobación formal y por escrito del presente presupuesto.
+			</div>
+
+			<div class=" pdfFillSection stylizedBorder reactiveFont">
+				*El rubro 'honorarios' corresponde a las retenciones, disponibilidad de equipo y gestión administrativa de la agencia por la prestación del servicio.
+			</div>
+
+			<div class="pdfFillSection stylizedBorder reactiveFont">
+				*De cancelarse el proyecto, el cliente asumirá los costos incurridos a provedores.
+			</div>
+
+			<div class="pdfFillSection stylizedBorder reactiveFont">
+				*Cotización válida hasta:
+			</div>
+
+			<div class=" pdfFillSection stylizedBorder reactiveFont">
+				*Las cotizaciones en las que se tenga que pagar facturas a terceros, tendrán un incremento de honorarios al 15%. Esto incluye compra de bonos regalo.
+			</div>
+
+			<div class=" pdfFillSection stylizedBorder reactiveFont">
+				*La cotización está sujeta a disponibilidad en el momento de la reserva.
+			</div>
+
+			<div class=" pdfFillSection stylizedBorder reactiveFont">
+				*Forma de pago. A conveniencia del cliente.
+			</div>
+
+			<div class=" pdfFillSection stylizedBorder reactiveFont">
+				*Los valores anteriores no incluyen IVA.
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="row">
+		<div id="columna" target="_self">
+			<a href="http://alcubo.com.co">
+			<img src="img/logo-footer.png" alt="Inicio"></a>
+		</div>
+
+		<div id="columna1">
+			<h3>Dirección</h3>
+			<hr class="separador">
+			<p>Calle 17a N° 54-99 (Barrio San Pablo) Medellin, Antioquia.</p>
+			<p>Bogotá, Colombia – Carrera 13a N° 89-38, oficina 206.</p>
+		</div>
+
+		<div id="columna2">
+			<h3>Contacto</h3>
+			<hr class="separador">
+			<p>Medellín - (4) 557 51 02 info@alcubo.com.co</p>
+			<p>Bogotá - (1) 432 78 51 info@alcubo.com.co</p>
+
+		</div>
+
+		<div id="columna3">
+			<h3>Síguenos</h3>
+			<hr class="separador">
+			<a href="https://www.facebook.com/alcuboproducciones1/" target="_blank" style="font-size:32px;line-height:32px"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/alcubomarketing/?hl=es-la" target="_blank" style="font-size:32px;line-height:32px"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
+
+	<script src="js/script.js"></script>
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/html2canvas.js"></script>
+	<script src="js/canvas2image.js"></script>
+	<script src="js/item-quantity-dropdown.min.js"></script>
+</body>
+</html>
