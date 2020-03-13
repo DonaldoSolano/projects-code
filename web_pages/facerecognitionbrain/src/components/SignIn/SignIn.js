@@ -31,8 +31,11 @@ class Signin extends React.Component {
 			})
 		})
 		.then(response => response.json())
-		.then(data => {
-			data === 'Success signing in'? this.props.onRouteChange('frecscreen'): console.log('Error signin in');
+		.then(user => {
+			if (user.id) {
+				this.props.loadUser(user);
+				this.props.onRouteChange('frecscreen');
+			}
 		})
 	}
 

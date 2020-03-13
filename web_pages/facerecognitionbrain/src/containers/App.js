@@ -23,8 +23,30 @@ class App extends Component {
 			imageUrl: '',
 			box: {},
 			route: 'signin',
-			isSignedIn: false 
+			isSignedIn: false,
+			user: {
+				id: '',
+				name: '',
+				email: '',
+				password : '',
+				entries : 0,
+				joined : ''
+			} 
 		}
+	}
+
+
+	loadUser = data => {
+		this.setState({
+			user: {
+				id: data.id,
+				name: data.name,
+				email: data.email,
+				password: data.password,
+				entries: data.entries,
+				joined: data.joined
+			}
+		});
 	}
 
 	calculateFaceLocation = (data) => {
@@ -69,16 +91,16 @@ class App extends Component {
 			<div className = "App">
 				<Particles className = "particles" params = {Particlesconfig}/>
 				<Navigation onRouteChange = {this.onRouteChange} isSignedIn = {this.state.isSignedIn}/>
-				{this.state.route === 'signin'? <Signin onRouteChange = {this.onRouteChange}/>:
+				{this.state.route === 'signin'? <Signin loadUser={this.loadUser} onRouteChange = {this.onRouteChange}/>:
 				(this.state.route === 'frecscreen'?
 				<div>
 					<Logo/>
-					<Rank/>
+					<Rank name={this.state.user.name} entries={this.state.user.entries}/>
 					<ImagelinkForm onInputChange = {this.onInputChange} onButtonSubmit = {this.onButtonSubmit}/>
 					<Facerecognition Imageurl= {this.state.imageUrl} box = {this.state.box} />
 				</div>:
 				<div>
-					<Register onRouteChange = {this.onRouteChange}/>
+					<Register loadUser = {this.loadUser} onRouteChange = {this.onRouteChange}/>
 				</div>
 				)
 				}	
