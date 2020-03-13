@@ -54,7 +54,7 @@ app.post('/signin',(request, response)=>{
 
 		if (request.body.email === temporalDatabase.users[i].email && request.body.password === temporalDatabase.users[i].password ) {
 			tryerChecker = 0;
-			return response.status(200).json('Success signing in');
+			return response.status(200).json(temporalDatabase.users[i]);
 		} else {
 			tryerChecker++;
 			continue;
@@ -66,17 +66,35 @@ app.post('/signin',(request, response)=>{
 	}
 });
 
+const registerDataChecker = data => {
+	return typeof data === 'string' && data !== ''? true : false; 
+}
+
 app.post('/register',(request, response)=>{
 	const {email, name, password} = request.body;
-	temporalDatabase.users.push({
-		id: '125',
-		name: name,
-		email: email,
-		password: password,
-		entries: 0,
-		joined: new Date()
-	});
-	response.json('Successful registration');
+
+	let currentUsersQuantity = temporalDatabase.users.length;
+
+	const validName = registerDataChecker(name);
+	const validEmail = registerDataChecker(email);
+	const validPassword = registerDataChecker(password);
+
+	if (validName && validEmail && validPassword) {
+		temporalDatabase.users.push({
+			id: '125',
+			name: name,
+			email: email,
+			password: password,
+			entries: 0,
+			joined: new Date()
+		});
+	} 
+
+	if (temporalDatabase.users.length === currentUsersQuantity + 1) {
+		response.status(200).json(temporalDatabase.users[temporalDatabase.users.length-1]);
+	} else {
+		response.status(400).json('Unsuccessful registration');
+	}
 });
 
 app.put('/image',(request, response)=>{
