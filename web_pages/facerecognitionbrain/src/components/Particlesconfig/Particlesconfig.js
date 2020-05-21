@@ -1,7 +1,8 @@
+ import crazy from '../Media/crazy.svg';
  export const Particlesconfig = {
-  "particles": {
+    "particles": {
     "number": {
-      "value": 114,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,7 +12,7 @@
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -20,33 +21,33 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": crazy,
         "width": 100,
         "height": 100
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 1,
       "random": false,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
+        "opacity_min": 0.50,
+        "sync": true
       }
     },
     "size": {
-      "value": 0,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 71.92807192807193,
+        "speed": 9.59040959040959,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 150,
       "color": "#ffffff",
       "opacity": 0.4,
@@ -54,21 +55,21 @@
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
+      "speed": 3.1565905665290903,
+      "direction": "top-left",
       "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
@@ -88,10 +89,10 @@
         }
       },
       "bubble": {
-        "distance": 328.8912709820448,
-        "size": 28.42270243054708,
-        "duration": 3.329516570435515,
-        "opacity": 0.828318756547372,
+        "distance": 191.80819180819182,
+        "size": 40,
+        "duration": 0.5594405594405595,
+        "opacity": 0.27172827172827174,
         "speed": 3
       },
       "repulse": {

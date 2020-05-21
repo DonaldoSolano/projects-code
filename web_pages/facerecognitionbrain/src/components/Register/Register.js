@@ -1,4 +1,6 @@
 import React from 'react';
+import './Register.css';
+import {validateEmail} from '../../utils/inputValidation.js';
 
 class Register extends React.Component {
 	constructor(props) {
@@ -6,7 +8,22 @@ class Register extends React.Component {
 		this.state = {
 			RegisterName:'',
 			RegisterEmail:'',
-			RegisterPassword:''
+			RegisterPassword:'',
+			ErrorMessage:''
+		}
+	}
+
+	componentDidMount() {
+  		document.addEventListener("keypress",this.submitSignInOnKeypress);
+	}
+
+	componentWillUnmount() {
+  		document.removeEventListener("keypress",this.submitSignInOnKeypress);
+	}
+
+	submitSignInOnKeypress = (event) => {
+		if (event.keyCode === 13) {
+			this.onSubmitRegister();
 		}
 	}
 
@@ -29,22 +46,32 @@ class Register extends React.Component {
 	}
 
 	onSubmitRegister = () => {
-		fetch('http://localhost:2000/register', {
-			method: 'post',
-			headers: {'Content-Type': 'application/json'},
-			body: JSON.stringify({
-				name: this.state.RegisterName,
-				email: this.state.RegisterEmail,
-				password: this.state.RegisterPassword
+		if (validateEmail(this.state.RegisterEmail)) {
+			fetch('http://localhost:2000/register', {
+				method: 'post',
+				headers: {'Content-Type': 'application/json'},
+				body: JSON.stringify({
+					name: this.state.RegisterName,
+					email: this.state.RegisterEmail,
+					password: this.state.RegisterPassword
+				})
 			})
-		})
-		.then(response => response.json())
-		.then(user => {
-			if (user) {
-				this.props.loadUser(user);
-				this.props.onRouteChange('frecscreen');
-			}
-		})
+			.then(response => response.json())
+			.then(user => {
+				if (user.id) {
+					localStorage.setItem('id_a', JSON.stringify(user));
+					this.props.loadUser(user);
+					this.props.onRouteChange('frecscreen');
+				}
+			}).catch(err =>{
+				this.setState({ErrorMessage:err});
+				document.getElementById("errorStyle").style.display = "block";
+			});
+		}
+		else {
+			this.setState({ErrorMessage:"Nope, try something like 'example@domain.com' =)"});
+			document.getElementById("errorStyle").style.display = "block";
+		}
 	}
 
 	render(){
@@ -61,6 +88,7 @@ class Register extends React.Component {
 							<div className='mt3'>
 								<label className='db fw6 lh-copy f6' htmlFor='email-address'>Email</label>
 								<input onChange = {this.onEmailChange} className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100' type='email' name='email-address'  id='email-address'/>
+								<p id = "errorStyle" className = "bg-red br3 f7 white">{this.state.ErrorMessage}</p>
 							</div>
 							<div className='mv3'>
 								<label className='db fw6 lh-copy f6' htmlFor='password'>Password</label>

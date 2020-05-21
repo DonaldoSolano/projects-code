@@ -1,0 +1,28 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.displayModallockout {
+	display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+}
+.displayModallockout:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.displayModallockout > article {
+    margin: 10% auto;
+    background: #fff;
+}

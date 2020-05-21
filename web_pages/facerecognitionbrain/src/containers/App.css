@@ -9,7 +9,7 @@ src: local('./Adam.otf'), url('./Adam.otf') format("opentype");
  	text-align: center;
  	font-family: Adam;
   	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	src: local('./Adam.otf'), url('./Adam.otf') format("opentype");
 }
 

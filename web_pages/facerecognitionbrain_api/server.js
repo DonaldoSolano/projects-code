@@ -104,7 +104,7 @@ app.put('/image',(request, response)=>{
 		if (user.id === id) {
 			found = true;
 			user.entries++;
-			return response.json(user.entries);
+			return response.status(200).json(user.entries);
 		}
 	})
 	if (!found) {
